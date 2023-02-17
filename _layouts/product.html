@@ -16,5 +16,21 @@
 		<h1 class="pzaglavie">{{page.title}}</h1>
 	</div>
 	{{ content }}
+	{% if page.name == 'iphone14.html' %}
+	<table id="i14">
+	  <tr>
+		<th>SIM слотове</th>
+		<th>Операционната система</th>
+		<th>Цвят</th>
+		<th>RAM памет</th>
+	  </tr>
+	  <tr>
+		<td>DUAL SIM</td>
+		<td>IOS 16</td>
+		<td>Deep Purple</td>
+		<td>6GB</td>
+	  </tr>
+	</table>
+	{% endif %}
 </body>
 </html>
